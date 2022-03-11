@@ -4,8 +4,8 @@ import { extendTheme, NativeBaseProvider, Container } from "native-base";
 import {DEFAULT_THEME} from '@shiksha/common-lib';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-const RemoteButton = React.lazy(() => import('remote/Button'));
-const Attendance = React.lazy(() => import('remote/Attendance'));
+const RemoteButton = React.lazy(() => import('attendance/Button'));
+const Attendance = React.lazy(() => import('attendance/Attendance'));
 
 
 const App = () => {
