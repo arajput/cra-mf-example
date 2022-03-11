@@ -23,6 +23,30 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "react-i18next": "^11.15.3",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-svg": "^12.1.1",
+    "react-native-web": "^0.17.6",
+    "react-router-dom": "^6.1.1",
+    "remixicon-react": "^1.0.0",
+    "styled-components": "^5.3.3",
+    "styled-system": "^5.1.5",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.4",
+    "@mui/material": "^5.4.0",
+    "@react-navigation/drawer": "^6.1.8",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "expo-font": "^10.0.3",
+    "i18next": "^21.6.7",
+    "moment": "^2.29.1",    
+    "postal": "^2.0.6",
+    "native-base": "^3.2.2"
+  },
   "peerDependencies": {
     "react": "17.0.2"
   },
@@ -32,7 +56,6 @@
     "@testing-library/user-event": "^7.2.1",
     "@types/jest": "^25.1.4",
     "@types/node": "^12.12.38",
-    "@types/react": "^16.9.27",
     "@types/react-dom": "^16.9.7",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
     "@typescript-eslint/parser": "^2.26.0",
@@ -54,8 +77,10 @@
     "prettier": "^2.0.4",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-scripts": "5.0.0",
-    "typescript": "^3.7.5"
+    "react-scripts": "5.0.0",    
+    "@types/react": "^17.0.39",
+    "typescript": "^4.5.5",
+    "@types/postal": "1.0.31"
   },
   "files": [
     "dist"
